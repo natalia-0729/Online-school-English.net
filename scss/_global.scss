@@ -1,0 +1,98 @@
+body{
+  font-size: 20px;
+  line-height: 24px;
+  color: $title;
+  @extend %montserrat-400;
+}
+
+.container{
+  max-width: 1370px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 42px;
+  @extend %montserrat-700;
+  line-height: 50px;
+}
+
+.btn{
+  border: none;
+  border-radius: 11px;
+  background-color: $accent;
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+  @extend %montserrat-700;
+  padding: 21px 48px;
+  cursor: pointer;
+}
+
+.socials{
+  margin-bottom: 50px;
+  &__link + .socials__link{
+    margin-left: 20px;
+  }
+  &__link{
+    border: 1px solid #E0E0E0;
+    border-radius: 50%;
+    padding: 21px 13px 10px 13px;
+    transition: all .5s;
+    &:hover{
+      path{
+        fill: $accent;
+      }
+      border-color: $violet;
+    }
+  }
+}
+
+.logo{
+  color: $accent;
+  line-height: 21px;
+  font-size: 21px;
+  &::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #9768FB;
+    display: inline-block;
+    border-radius: 50%;      
+    vertical-align: sub;
+    margin-right: 5px;
+    }
+}
+.form{
+  &__title{
+    width: 220px;
+    font-size: 61px;
+    line-height: 106px;
+    color: #000;
+  }
+  &__subtitle{
+    color: #000;
+    font-size: 24px;
+    line-height: 10px;
+    @extend %montserrat-700;
+    margin-bottom: 45px;
+  }
+  &__text{
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  &__inf{
+    background: #FFFFFF;
+    border: 2px solid #B18CFF;
+    border-radius: 10px;
+    outline: none;
+    width: 335px;
+    height: 60px;
+    margin-bottom: 25px;
+    padding: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+  }
+}

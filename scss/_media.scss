@@ -1,0 +1,1697 @@
+@media(min-width: 1930px){
+  .header{
+    &__content-text {
+      line-height: 32.6px;
+      font-size: 18px;
+    }
+    &__log-in{
+      font-size: 18px;
+      &::after{
+        margin-left: 10px;
+      }
+    }
+  }
+  .menu{
+    &__list-link{
+      font-size: 18px;
+    }
+  }
+  .advantages{
+    &__text{
+      font-size: 22px;
+      width: 500px;
+      line-height: 32px;
+    }
+  }
+  .articles{
+    &__item{
+      padding: 30px 40px;
+    }
+    &__item-subtitle{
+      font-size: 14px;
+    }
+    &__item-adventure, &__item-psychology{
+      margin-right: 150px;
+    }
+    &__item-adventure, &__item-marketing{
+      margin-bottom: 150px;
+    }
+    &__item-text{
+      font-size: 16px;
+      line-height: 23px;
+    }
+    &__item-link{
+      font-size: 16px;
+    }
+  }
+  .question{
+    &__item{
+      padding: 26px 36px;
+    }
+    &__text{
+      font-size: 18px;
+      &::after{
+        margin-left: 75px;
+      }
+    }
+  }
+  .footer{
+    &__list{
+      font-size: 18px;
+      width: 220px;
+      margin-bottom: 18px;
+    }
+    &__link{
+      font-size: 18px;
+      line-height: 23px;
+      margin-bottom: 18px;
+    }
+    &__text{
+      font-size: 16px;
+      width: 340px;
+    }
+  }
+}
+
+@media(min-width: 2250px){
+  .articles{
+    &__subtitle{
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    &__form-search{
+      font-size: 20px;
+      padding: 16px 16px 16px 59px
+    }
+    &__form-btn{
+      left: 18px;
+      top: 20px;
+    }
+    &__item {
+      padding: 40px 60px;
+    }
+    &__item-title {
+      font-size: 30px;
+      line-height: 50px
+    }
+    &__item-subtitle {
+      font-size: 18px;
+    }
+    &__item-text{
+      width: 255px;
+      font-size: 18px;
+      line-height: 27px;
+    }
+    &__item-link {
+      font-size: 18px;
+    }
+  }
+  .log-in{
+    &__inner{
+      padding: 75px;
+      margin-top: 250px;
+    }
+    &__items{
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (min-width: 3000px){
+  .log-in{
+    padding: 400px 20px;
+    &__inner{
+      margin-top: 0;
+    }
+  }
+  .articles{
+    &__item-text{
+      width: 300px;
+    }
+  }
+}
+
+@media (max-width: 1440px){
+  body{
+    font-size: 18px;
+  }
+  .btn{
+    font-size: 16px;
+    padding: 16px 35px;
+  }
+  .header{
+    &__top-inner{
+      padding-top: 45px;
+    }
+    &__content-text {
+      line-height: 26.6px;
+    }
+    &__content-img{
+      width: 650px;
+    }
+    &__item{
+      padding: 30px 35px;
+    }
+    &__items + .header__items{
+      margin-top: 50px;
+    }
+    &__item-title{
+      font-size: 30px;
+      margin-bottom: 25px;
+    }
+    &__item-text {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 10px;
+      width: 350px;
+    }
+    &__item-sum{
+      font-size: 26px;
+      line-height: 40px;
+      margin-bottom: 20px;
+    }
+  }
+  .advantages {
+    padding: 100px 0 100px;
+    &__text {
+      width: 400px;
+    }
+  }
+  .log-in{
+    &__inner{
+      margin: 0 auto;
+      margin-top: 100px;
+    }
+  }
+  .team{
+    &__title{
+      margin-bottom: 20px;
+    }
+    &__item{
+      padding: 0 70px;
+    }
+    &__img{
+      width: 300px;
+    }
+  }
+}
+
+@media (max-width: 1370px){
+  body {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  .btn {
+    font-size: 14px;
+    padding: 14px 30px;
+  }
+  .header{
+    &__content-inner{
+      max-width: 450px;
+    }
+    &__content-text{
+      line-height: 22px;
+    }
+    &__content-btn{
+      margin-bottom: 25px;
+    }
+    &__content-img {
+      width: 600px;
+    }
+    &__items + .header__items{
+      margin-top: 40px;
+    }
+    &__item-title {
+      font-size: 26px;
+      line-height: 35px;
+      margin-bottom: 15px;
+    }
+    &__item-text {
+      font-size: 16px;
+      line-height: 26px;
+      width: 320px;
+    }
+    &__item-sum {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    &__item-btn{
+      font-size: 13px;
+      padding: 10px 20px;
+    }
+  }
+  .advantages{
+    padding: 50px 0;
+    &__icon{
+      width: 180px;
+    }
+    &__text{
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+  .log-in{
+    &__inner{
+      width: 470px;
+      padding: 50px;
+      margin-top: 0;
+    }
+  }
+  .form{
+    &__subtitle {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+    &__inf{
+      height: 50px;
+    }
+    &__text{
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+  }
+  .team{
+    padding: 50px 20px;
+    &__img {
+      width: 250px;
+    }
+    &__item {
+      padding: 0 85px;
+    }
+    &__item-title {
+      font-size: 20px;
+      margin: 30px 0;
+    }
+    &__icon{
+      width: 20px;
+    }
+  }
+  .social{
+    &__link{
+      padding: 18px 11px 8px 11px;
+    }
+  }
+  .articles{
+    &__item-title {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+  .question{
+    padding: 50px 20px;
+    &__item{
+      margin-bottom: 45px;
+    }
+    &__img{
+      width: 450px;
+    }
+    &__text{
+      padding-bottom: 10px;
+    }
+  }
+  .request{
+    padding: 50px 20px;
+    &__img{
+      width: 700px;
+    }
+    &__items{
+      padding: 50px;
+      width: 435px;
+    }
+  }
+  .logo{
+    font-size: 19px;
+    &::before{
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .footer{
+    padding: 50px 20px;
+  }
+}
+
+@media (max-width: 1285px){
+  .log-in{
+    &__inner{
+      width: 410px;
+      padding: 40px;
+    }
+  }
+  .logo {
+    font-size: 18px;
+  }
+  .form{
+    &__title{
+      font-size: 30px;
+      line-height: 42px;
+    }
+    &__subtitle{
+      font-size: 18px;
+    }
+  }
+  .team{
+    &__item{
+      padding: 0 60px;
+    }
+    &__item-title {
+      font-size: 18px;
+      margin: 20px 0 30px;
+    }
+    &__img{
+      padding-left: 10px;
+    }
+  }
+  .socials {
+    margin-bottom: 30px;
+  }
+  .articles{
+    padding-bottom: 50px;
+    &__content{
+      padding-bottom: 50px;
+    }
+    &__item-img{
+      height: 100px;
+    }
+    &__item-text {
+      margin: 20px 0 13px;
+    }
+  }
+}
+
+@media (max-width: 1152px){
+  body{
+    font-size: 14px;
+  }
+  .title {
+    font-size: 28px;
+    line-height: 38px;
+  } 
+  .btn {
+    font-size: 13px;
+    padding: 12px 30px;
+  }
+  .header{
+    &__items-title {
+      width: 370px;
+    }
+    &__content-img {
+      width: 515px;
+      min-width: 0;
+      min-height: 0;
+    }
+    &__item{
+      padding: 25px;
+    }
+    &__item-title {
+      font-size: 24px;
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+    &__item-text {
+      font-size: 15px;
+      line-height: 23px;
+      width: 295px;
+    }
+    &__item-sum {
+      font-size: 20px;
+      line-height: 28px;
+      margin-bottom: 15px;
+    }
+    &__item-btn {
+      font-size: 12px;
+      padding: 8px 18px;
+    }
+  }
+  .advantages{
+    &__text {
+      font-size: 13px;
+      line-height: 20px;
+      width: 340px;
+    }
+    &__img{
+      width: 460px;
+      min-width: 0;
+      min-height: 0;
+      &:last-child{
+        width: 250px;
+        height: 350px;
+      }
+    }
+    &__icon {
+      width: 160px;
+    }
+  }
+  .log-in{
+    &__btn{
+      width: 300px;
+    }
+  }
+  .team{
+    &__item-title{
+      font-size: 16px;
+    }
+    &__icon{
+      width: 18px;
+    }
+  }
+  .socials{
+    &__link{
+      padding: 21px 13px 7px 13px;
+    }
+  }
+  .articles{
+    &__item{
+      padding: 20px;
+    }
+    &__item-title{
+      font-size: 20px;
+      line-height: 30px;
+    }
+    &__item-text {
+      margin: 10px 0 10px;
+    }
+    &__item-img {
+      height: 90px;
+    }
+  }
+  .question{
+    &__item{
+      width: 575px;
+      padding: 20px;
+    }
+    &__text{
+      font-size: 14px;
+    &::after {
+      margin-left: 80px;
+    }
+    }
+    &__descr{
+      font-size: 13px;
+    }
+  }
+  .request{
+    &__items {
+      padding: 40px;
+    }
+    &__btn{
+      width: 300px;
+    }
+    &__item-text{
+      font-size: 13px;
+    }
+  }
+  .form{
+    &__inf{
+      width: 300px;
+    }
+  }
+  .footer{
+    &__title{
+      font-size: 20px;
+      line-height: 28px;
+    }
+    &__social-icon{
+      width: 20px;
+    }
+    &__social-link{
+      padding: 21px 10px 7px 10px;
+    }
+    &__btn{
+      padding: 10px 28px;
+    }
+  }
+}
+
+@media (max-width: 1064px){
+  .title{
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .btn {
+    font-size: 12px;
+    padding: 8px 27px;
+  }
+  .header{
+    &__content-title {
+      margin-bottom: 15px;
+    }
+    &__content-text{
+      font-size: 13px;
+      line-height: 20px;
+      width: 340px;
+    }
+    &__content-img{
+      width: 475px;
+      min-width: 0;
+      min-height: 0;
+    }
+    &__content-btn{
+      margin-bottom: 15px;  
+    }
+    &__item-title {
+      font-size: 20px;
+      line-height: 18px;
+    }
+    &__items-title {
+      width: 350px;
+    }
+    &__item-text {
+      font-size: 14px;
+      line-height: 20px;
+      width: 270px;
+    }
+    &__item-sum {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 10px;
+    }
+    &__item-btn {
+      padding: 6px 18px;
+    }
+    &__items+.header__items {
+      margin-top: 30px;
+    }
+  }
+  .advantages{
+    padding: 40px 0;
+    &__title{
+      margin-bottom: 5px;
+    }
+    &__img{
+      width: 350px;
+      height: 350px;
+      &:last-child{
+        width: 250px;
+      }
+    }
+    &__icon {
+      width: 140px;
+    }
+    &__text{
+      font-size: 12px;
+      line-height: 17px;
+    }
+  }
+  .log-in{
+    &__inner{
+      width: 350px;
+      padding: 30px;
+      margin: 0 auto;
+    }
+  }
+  .form{
+    &__subtitle {
+      font-size: 15px;
+      margin-bottom: 15px;
+    }
+    &__inf{
+      width: 280px;
+      height: 40px;
+      margin-bottom: 20px;
+      font-size: 12px;
+    }
+    &__text{
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+  .log-in{
+    &__link{
+      font-size: 12px;
+      line-height: 16px;
+    }
+    &__btn{
+      width: 280px;
+    }
+  }
+  .logo {
+    font-size: 16px;
+    &::before {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .request{
+    &__items{
+      width: 320px;
+      padding: 35px;
+    }
+    &__img{
+      width: 500px;
+    }
+    &__form-inf{
+      width: 250px;
+    }
+    &__item-text {
+      font-size: 12px;
+    }
+    &__btn{
+      width: 250px;
+      padding: 6px 22px;
+    }
+  }
+  .team{
+    &__img{
+      width: 220px;
+      padding-left: 20px;
+    }
+    &__item-title {
+      font-size: 14px;
+      margin: 0 0 20px;
+    }
+    &__icon-facebook{
+      width: 10px;
+    }
+    &__social-facebook{
+      padding: 21px 17px 7px 17px;
+    }
+  }
+  .articles{
+    &__item-title {
+      font-size: 18px;
+      line-height: 22px;
+    }
+    &__item-img {
+      height: 80px;
+    }
+    &__item-text{
+      width: 200px;
+      font-size: 12px;
+      line-height: 17px;
+      margin: 5px 0;
+    }
+  }
+  .question{
+    &__img {
+      width: 360px;
+    }
+    &__text {
+      font-size: 13px;
+    }
+    &__inner{
+      margin-bottom: 15px;
+    }
+    &__item{
+      width: 530px;
+      margin-bottom: 35px;
+    }
+  }
+  .footer{
+    &__title {
+      font-size: 18px;
+      line-height: 20px;
+    }
+    &__text{
+      font-size: 13px;
+      line-height: 20px;
+    }
+    &__list-link{
+      font-size: 14px;
+    }
+    &__link{
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 14px;
+    }
+    &__inf{
+      width: 280px;
+      margin-bottom: 18px;
+    }
+    &__btn{
+      font-size: 11px;
+      padding: 6px 27px;
+    }
+  }
+}
+
+@media (max-width: 991px){
+  .title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .btn {
+    font-size: 11px;
+    padding: 6px 22px;
+  }
+  .header{
+    padding: 0 10px;
+    &__top-inner{
+      justify-content: space-between;
+      padding-top: 50px;
+    }
+    &__content-img{
+      width: 430px;
+    }
+    &__content-title {
+      margin-bottom: 5px;
+    }
+    &__content-text{
+      font-size: 12px;
+      line-height: 18px;
+      width: 340px;
+      margin-bottom: 10px;
+    }
+    &__items-title{
+      width: 350px;
+    }
+    &__item-title{
+      font-size: 18px;
+      line-height: 14px;
+      margin-bottom: 10px;
+    }
+    &__item-text {
+      font-size: 13px;
+      width: 250px;
+    }
+    &__item-sum {
+      font-size: 16px;
+      line-height: 16px;
+    }
+    &__item-btn {
+      padding: 4px 14px;
+    }
+  }
+  .menu{
+    margin-right: 0;
+    &__list{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 90px;
+      background-color: #fefefe;
+      display: block;
+      text-align: left;
+      transform: translateY(-200%);
+      transition: all .5s;
+      z-index: 2;
+      }
+      &__list.menu__list--active{
+        transform: translateY(0%);
+      }
+    ul{
+        margin-right: 0;
+    }
+    &__list-link{
+      display: block;
+      padding: 20px 0;
+      color: $accent;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+    }
+    &__list-link-first{
+      margin-left: 50px;
+    }
+    &__list ul{
+      padding: 17px 0;
+    }
+    &__btn{
+      display: block;
+      background-color: transparent;
+      border: none;
+      padding: 0;
+      position: relative;
+      z-index: 2;
+    }
+    &__phone{
+      display: none;
+    }
+  }
+  .advantages{
+    &__img {
+      width: 300px;
+      height: 300px;
+      &:last-child{
+        width: 210px;
+      }
+    }
+  }
+  .log-in{
+    &__inner{
+      width: 340px;
+    }
+    &__link{
+      font-size: 11px;
+    }
+  }
+  .form{
+    &__title{
+      font-size: 18px;
+    }
+    &__subtitle{
+      font-size: 14px;
+    }
+    &__inf{
+      width: 270px;
+      font-size: 12px;
+      margin-bottom: 15px;
+    }
+  }
+  .socials{
+    margin-bottom: 25px;
+    &__link {
+      padding: 17px 10px 4px 10px;
+    }
+  }
+  .team{
+    &__title{
+      margin-bottom: 35px;
+    }
+    &__social-facebook {
+      padding: 17px 14px 4px 14px;
+    }
+  }
+  .slick-dots{
+    button{
+      width: 8px;
+      height: 8px;
+      margin-top: 15px;
+    }
+    li + li{
+      margin-left: 15px;
+    }
+  }
+  .articles{
+    &__form-search{
+      padding: 10px 12px 10px 50px;
+    }
+    &__item-title {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    &__item-text{
+      font-size: 11px;
+      line-height: 16px;
+    }
+    &__item-adventure, &__item-psychology{
+      margin-right: 30px;
+    }
+    &__item-adventure, &__item-marketing{
+      margin-bottom: 30px;
+    }
+  }
+  .request{
+    &__items{
+      width: 390px;
+    }
+    &__item-text{
+      font-size: 12px;
+    }
+    &__btn{
+      font-size: 12px;
+      padding: 8px 22px;
+    }
+  }
+  .question{
+    &__img{
+      width: 320px;
+    }
+    &__item{
+      width: 440px;
+      padding: 20px;
+      margin-bottom: 25px;
+    }
+    &__text{
+      font-size: 12px;
+      &::after {
+        margin-left: 25px;
+      }
+    }
+    &__descr{
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+  .footer{
+    &__list-link{
+      font-size: 12px;
+      line-height: 20px;
+    }
+    &__social-link{
+      padding: 14px 10px 8px;
+    }
+    &__social-icon{
+      width: 18px;
+      height: 19px;
+    }
+    &__item-link{
+      margin-right: 10px;
+    }
+    &__link{
+      font-size: 12px;
+      line-height: 14px;
+    }
+    &__title{
+      font-size: 16px;
+    }
+    &__text {
+      font-size: 12px;
+      line-height: 18px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media (max-width: 800px){
+  .container{
+    padding: 0 15px;
+  }
+  .title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .header{
+    &__content-inner{
+      margin-top: 70px;
+    }
+    &__items{
+      display: block;
+    }
+    &__item{
+      max-width: 280px;
+      margin-bottom: 20px;
+      &:nth-child(1){
+        margin-left: 150px;
+      }
+      &:last-child{
+        margin-left: 300px;
+      }
+    }
+    &__items + .header__items {
+      margin-top: 0;
+    }
+    &__items-title{
+      width: 300px;
+      margin-top: 20px;
+    }
+    &__item + .header__item {
+      margin-left: 0;
+    }
+    &__item-title {
+      font-size: 18px;
+      line-height: 14px;
+      margin-bottom: 10px;
+    }
+    &__item-text{
+      font-size: 12px;
+      width: 220px;
+    }
+    &__content-title {
+      margin-bottom: 15px;
+    }
+    &__content-text{
+      width: 265px;
+    }
+    &__content-btn {
+      margin-bottom: 20px;
+    }
+  }
+  .menu{
+    &__list-link{
+      padding: 15px 0;
+      font-size: 16px;
+    }
+  }
+  .logo{
+    font-size: 18px;
+    &::before{
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .log-in{
+    &__inner{
+      width: 300px;
+      padding: 25px;
+    }
+    &__link{
+      font-size: 11px;
+      line-height: 15px;
+    }
+    &__btn{
+      width: 250px;
+      padding: 6px 20px;
+    }
+  }
+  .logo{
+    font-size: 14px;
+    &::before{
+      width: 15px;
+      height: 15px;
+    }
+  }
+  .form{
+    &__subtitle{
+      font-size: 12px;
+    }
+    &__inf{
+      width: 250px;
+      height: 40px;
+      font-size: 12px;
+    }
+  }
+  .team{
+    &__item-title {
+      font-size: 12px;
+    }
+    &__item {
+      padding: 0 10px;
+    }
+    &__icon {
+      width: 14px;
+    }
+    &__icon-facebook{
+      width: 10px;
+    }
+    &__social-facebook {
+      padding: 17px 14px 4px 14px;
+    }
+  }
+  .articles{
+    padding-bottom: 30px;
+    &__inner{
+      margin-bottom: 20px;
+    }
+    &__subtitle{
+      font-size: 14px;
+    }
+    &__img{
+      display: none;
+    }
+    &__form-icon{
+      width: 15px;
+      height: 15px;
+    }
+    &__form-search{
+      padding: 10px 10px 10px 40px;
+      font-size: 14px;
+    }
+    &__item-img {
+      height: 60px;
+    }
+    &__item-adventure, &__item-psychology{
+      margin-right: 50px;
+    }
+    &__content{
+      justify-content: center;
+    }
+  }
+  .question{
+    &__item{
+      width: 360px;
+      padding: 20px 30px 20px 15px;
+    }
+    &__text{
+      width: 250px;
+      line-height: 18px;
+      padding-bottom: 5px;
+      &::after {
+        margin-left: 270px;
+      }
+    }
+  }
+  .request{
+    &__items {
+      width: 325px;
+      padding: 30px;
+    }
+    &__btn{
+      font-size: 11px;
+      padding: 8px 14px;
+    }
+    &__item-text{
+      font-size: 11px;
+      line-height: 14px;
+    }
+  }
+  .footer{
+    &__inner{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+    }
+    &__inf{
+      width: 260px;
+      margin-bottom: 15px;
+      font-size: 12px;
+    }
+    &__item-request{
+      margin-left: 40px;
+    }
+    &__text{
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 677px){
+  .title {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .btn {
+    font-size: 10px;
+    padding: 4px 20px;
+  }
+  .header{
+    padding: 0 5px;
+    &__content-inner{
+      margin-top: 60px;
+    }
+    &__content-title {
+      width: 270px;
+    }
+    &__content-text {
+      width: 230px;
+      font-size: 11px;
+      line-height: 18px;
+    }
+    &__content-btn {
+      margin-bottom: 15px;
+    }
+    &__content-img{
+      width: 300px;
+    }
+    &__items-title{
+      width: 250px;
+      margin-bottom: 10px;
+    }
+    &__item{
+      width: 250px;
+      &:nth-child(1){
+        margin-left: 190px;
+      }
+      &:last-child{
+        margin-left: 0px;
+      }
+    }
+  }
+  .advantages{
+    &__title{
+      width: auto;
+    }
+    &__img{
+      width: 200px;
+      height: 200px;
+      &:last-child{
+        width: 130px;
+        height: 270px;
+      }
+    }
+    &__text {
+      font-size: 11px;
+      line-height: 16px;
+      width: 230px;
+    }
+    &__icon {
+      width: 100px;
+    }
+  }
+  .log-in{
+    &__inner{
+      width: 250px;
+    }
+    &__link{
+      font-size: 9px;
+      line-height: 11px;
+    }
+    &__btn{
+      padding: 3px 20px;
+      width: 200px;
+    }
+  }
+  .logo{
+    font-size: 10px;
+    &::before{
+      width: 12px;
+      height: 12px;
+    }
+  }
+  .form{
+    &__title{
+      font-size: 20px;
+    }
+    &__subtitle{
+      font-size: 10px;
+    }
+    &__inf{
+      width: 200px;
+      height: 35px;
+      font-size: 11px;
+    }
+    &__text{
+      font-size: 11px;
+    }
+  }
+  .team{
+    &__item-title {
+      font-size: 11px;
+      margin: 20px 0 20px;
+    }
+  }
+  .socials {
+    margin-bottom: 50px;
+  }
+  .slick-list{
+    margin-bottom: -40px;
+  }
+  .articles{
+    &__subtitle{
+      font-size: 12px;
+    }
+    &__form-search {
+      padding: 8px 8px 8px 34px;
+      font-size: 12px;
+    }
+    &__form-icon {
+      width: 12px;
+      height: 12px;
+    }
+    &__content{
+      padding-bottom: 30px;
+    }
+    &__item-title {
+      font-size: 15px;
+      line-height: 18px;
+    }
+    &__item-img {
+      height: 40px;
+    }
+    &__item-text {
+      font-size: 10px;
+      line-height: 15px;
+      width: 180px;
+      margin: 5px 0;
+    }
+    &__item-link {
+      font-size: 12px;
+      line-height: 5px;
+    }
+    &__item-adventure, &__item-psychology {
+      margin-right: 30px;
+    }
+  }
+  .question{
+    &__item {
+      width: 330px;
+      padding: 10px 30px 10px 15px;
+      margin-bottom: 25px;
+    }
+    &__text{
+      width: 180px;
+      font-size: 11px;
+    }
+  }
+  .request{
+    &__items {
+      width: 260px;
+    }
+    &__btn{
+      width: 190px;
+      font-size: 10px;
+      padding: 6px 12px;
+    }
+  }
+}
+
+@media (max-width: 577px){
+  .title{
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .header{
+    &__content-title {
+      width: 220px;
+      margin-bottom: 10px;
+    }
+    &__content-btn {
+      margin-bottom: 10px;
+    }
+    &__log-in{
+      font-size: 14px;
+    }
+    &__content-img{
+      width: 270px;
+    }
+    &__items-title {
+      width: 220px;
+    }
+    &__item{
+      padding: 20px;
+      width: 250px;
+    }
+    &__item-text {
+      font-size: 12px;
+      line-height: 22px;
+      margin-bottom: 5px;
+      width: 220px;
+    }
+    &__item-sum {
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+  .menu{
+    &__list-link{
+      font-size: 14px;
+    }
+  }
+  .advantages{
+    &__title{
+      margin-bottom: 10px;
+    }
+    &__img{
+      display: none;
+    }
+  }
+  .team{
+    &__title{
+      margin-bottom: 35px;
+    }
+    &__item{
+      padding: 0 20px;
+    }
+    &__item-title{
+      font-size: 9px;
+      margin: 10px 0;
+    }
+    &__icon {
+      width: 15px;
+      height: 14px;
+    }
+    &__social-link{
+      padding: 8px 8px 6px;
+    }
+  }
+  .articles{
+    &__form-icon {
+      width: 10px;
+      height: 10px;
+    }
+    &__form-search {
+      padding: 6px 8px 6px 34px;
+      font-size: 10px;
+    }
+    &__item-adventure, &__item-psychology {
+      margin-right: 20px;
+    }
+    &__item-adventure, &__item-marketing {
+      margin-bottom: 20px;
+    }
+    &__item-title {
+      font-size: 13px;
+      line-height: 15px;
+    }
+    &__item-subtitle{
+      font-size: 8px;
+    }
+    &__item-text{
+      width: 150px;
+    }
+    &__item-link{
+      font-size: 10px;
+    }
+  }
+  .question{
+    &__item{
+      width: 250px;
+    }
+    &__text{
+      font-size: 11px;
+      line-height: 15px;
+      width: 155px;
+      &::after {
+        margin-left: 175px;
+      }
+    }
+    &__descr {
+      font-size: 10px;
+      line-height: 17px;
+    }
+  }
+  .request{
+    &__items{
+      width: 220px;
+      padding: 20px;
+    }
+    &__checkbox {
+      height: 15px;
+      width: 15px;
+    }
+    &__item-text{
+      font-size: 10px;
+    }
+    &__btn{
+      font-size: 9px;
+      padding: 4px 10px;
+    }
+  }
+  .footer{
+    &__inner{
+      display: blocK;
+      text-align: center;
+    }
+    &__lists{
+      display: inline-block;
+    }
+    &__socials{
+      margin-top: 20px;
+    }
+    &__item-link{
+      margin-right: 0;
+    }
+    &__item-request{
+      margin: 36px 0 0;
+    }
+    &__title{
+      font-size: 16px;
+    }
+    &__text{
+      margin: 0 auto;
+      margin-bottom: 17px;
+      width: 240px;
+    }
+    &__inf {
+      width: 240px;
+      text-align: center;
+    }
+    &__btn {
+      padding: 8px 20px;
+      font-size: 10px;
+    }
+  }
+}
+
+@media (max-width: 479px){
+  .title{
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .header{
+    &__content-inner {
+      margin-top: 20px;
+    }
+    &__content-title {
+      width: 200px;
+    }
+    &__content-text{
+      width: 200px;
+    }
+    &__content-btn {
+      margin-bottom: 5px;
+    }
+    &__log-in{
+      font-size: 12px;
+    }
+    &__content-img{
+      width: 190px;
+      height: 245px;
+    }
+    &__items-title {
+      width: 200px;
+    }
+    &__item {
+      width: 220px;
+      margin: 20px auto !important; 
+    }
+    &__item-text {
+      font-size: 11px;
+      line-height: 18px;
+      width: 200px;
+    }
+    &__item-sum {
+      font-size: 14px;
+    }
+  }
+  .advantages, .team, .question, .request, .footer {
+    padding: 30px 0;
+  }
+  .team{
+    &__img{
+      padding-left: 0;
+    }
+    &__item-title{
+      font-size: 8px;
+      margin: 0;
+    }
+    &__icon {
+      width: 10px;
+      height: 10px;
+    }
+    &__social-link{
+      padding: 5px 8px 6px 9px;
+    }
+  }
+  .slick-dots{
+    button{
+      width: 6px;
+      height: 6px;
+      margin-top: 0;
+    }
+    li + li{
+      margin-left: 10px;
+    }
+  }
+  .advantages{
+    &__item{
+      margin-bottom: 10px;
+    }
+  }
+  .log-in{
+    padding: 80px 10px;
+    &__inner{
+      width: 230px;
+    }
+    &__btn{
+      width: 180px;
+    }
+  }
+  .form{
+    &__inf{
+      width: 180px;
+      font-size: 10px;
+    }
+  }
+  .articles{
+    &__subtitle {
+      font-size: 10px;
+    }
+    &__item{
+      width: 160px;
+      padding: 15px;
+    }
+    &__item-title { 
+      font-size: 12px;
+      line-height: 13px;
+    }
+    &__item-text{
+      width: 125px;
+      font-size: 8px;
+      line-height: 13px;
+      margin: 0;
+    }
+    &__item-link {
+      font-size: 9px;
+    }
+  }
+  .question{
+    &__subtitle{
+      margin-left: 30px;
+    }
+    &__content{
+      margin: 0 auto;
+    }
+    &__img{
+      display: none;
+    }
+  }
+  .request{
+    &__items{
+      margin: 0 auto;
+    }
+    &__img{
+      display: none;
+    }
+    &__btn{
+      width: 180px;
+    }
+  }
+}
+
+@media (max-width: 390px){
+  .title{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .header{
+    &__content-title {
+      width: 120px;
+    }
+    &__content-text{  
+      font-size: 10px;
+      line-height: 15px;
+      width: 125px;
+    }
+    &__content-btn {
+      line-height: 16px;
+      padding: 10px 20px;
+      margin-bottom: 15px;
+    }
+    &__content-img{
+      height: 200px;
+    }
+    &__log-in{
+      line-height:12px;
+      &::after{
+        width: 40px;
+        height: 30px;
+      }
+    }
+    &__items-title{
+      width: 150px;
+    }
+  }
+  .advantages, .team, .question, .request, .footer {
+    padding: 20px 0;
+  }
+  .team{
+    &__item-title{
+      font-size: 7px;
+    }
+  }
+  .socials{
+    &__link+.socials__link {
+      margin-left: 10px;
+    }
+  }
+  .articles{
+    &__inner{
+      display: block;
+    }
+    &__inner-descr{
+      margin-bottom: 15px;
+    }
+    &__title{
+      line-height: 13px;
+    }
+    &__form{
+      width: 160px;
+    }
+    &__form-search{
+      position: relative;
+    }
+    &__subtitle {
+      font-size: 9px;
+    }
+    &__items{
+      display: block;
+    }
+    &__item{
+      margin-bottom: 10px;
+    }
+  }
+}
