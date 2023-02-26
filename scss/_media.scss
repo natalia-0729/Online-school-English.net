@@ -109,7 +109,8 @@
   .log-in{
     &__inner{
       padding: 75px;
-      margin-top: 250px;
+      margin-top: 150px;
+      margin-bottom: 150px;
     }
     &__items{
       margin-bottom: 25px;
@@ -122,6 +123,7 @@
     padding: 400px 20px;
     &__inner{
       margin-top: 0;
+      margin-bottom: 0;
     }
   }
   .articles{
