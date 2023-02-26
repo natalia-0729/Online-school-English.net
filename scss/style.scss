@@ -164,7 +164,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
   padding: 100px 20px;
   &__inner{
     background: rgba(255, 255, 255, 0.86);
@@ -173,7 +172,6 @@
     width: 505px;
     padding: 75px;
     margin: 0 auto;
-    margin-top: 100px;
   }
   &__items{
     display: flex;
