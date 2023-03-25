@@ -31,13 +31,12 @@
     color: $accent;
   }
   &__content-text{
-    line-height: 29.6px;
-    margin-bottom: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
   }
-  &__content-btn{
+  &__content-link{
     box-shadow: inset -18px -18px 36px rgba(0, 0, 0, 0.15), inset -20px -20px 40px rgba(0, 0, 0, 0.15), inset -10px -10px 20px rgba(0, 0, 0, 0.15);
     filter: drop-shadow(40px 40px 80px rgba(151, 104, 251, 0.14)) drop-shadow(20px 20px 60px rgba(151, 104, 251, 0.14));
-    margin-bottom: 40px;
   }
   &__content-img {
     min-width: 0;
@@ -48,6 +47,7 @@
     line-height: 34px;
     text-decoration-line: underline;
     display: block;
+    margin-top: 40px;
     &::after{
       content: url('../images/arrow.png');
       vertical-align: sub;
