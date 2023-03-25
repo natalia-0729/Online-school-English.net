@@ -1241,7 +1241,7 @@
       font-size: 10px;
     }
     &__inf{
-      width: 200px;
+      width: 220px;
       height: 35px;
       font-size: 11px;
     }
@@ -1312,8 +1312,11 @@
     &__items {
       width: 260px;
     }
+    &__form-inf{
+      width: 220px;
+    }
     &__btn{
-      width: 190px;
+      width: 220px;
       font-size: 10px;
       padding: 6px 12px;
     }
@@ -1437,7 +1440,6 @@
   }
   .request{
     &__items{
-      width: 220px;
       padding: 20px;
     }
     &__checkbox {
@@ -1574,7 +1576,6 @@
   }
   .form{
     &__inf{
-      width: 180px;
       font-size: 10px;
     }
   }
@@ -1617,9 +1618,6 @@
     }
     &__img{
       display: none;
-    }
-    &__btn{
-      width: 180px;
     }
   }
 }
